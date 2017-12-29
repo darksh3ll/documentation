@@ -116,28 +116,5 @@ pour **telecharger** votre configuration sur le serveur gist apres une reinstalt
 SHIFT ALT D
 ```
 -------------------------------------
-sync settings pour ma debian
-
-**Token**
-    0dafbce56f7e762e6deca653e838db945157660a
-
-**Gist id**
-
-    c9350c363ed1555b5033b8194ae2c1c7
-
- [GIST LINUX](https://gist.github.com/darksh3ll/c9350c363ed1555b5033b8194ae2c1c7)
-
--------------------
-sync settings pour Mac
-
-**Token**
-    ed040814564d65d66795751cb4edf14d77497148
-
-**Gist id**
-
-     44a927d284004215d821b22159e80cc1
-
-
-[GIST MAC](https://gist.github.com/darksh3ll/44a927d284004215d821b22159e80cc1)
 
 
