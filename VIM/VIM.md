@@ -34,6 +34,12 @@ Désignations | keymaps |
 ---- 
 **EFFACER**
 
+On peut combiner les touches et passer en mode insertion
+
+exemple:
+
+    cb supprime le mot precedent et passe en mode insertion
+    dw efface le mot et passe en mode insertion
 
 Désignations | keymaps | 
 |---------|----------|
@@ -45,6 +51,7 @@ Efface la ligne courante | dd |
 efface j'usqua la fin de ligne|D ou d$
 efface jusqua debut de ligne|d0(zéro) 
 Supprime jusqu'a la prochaine occurence de p|df(p)
+Supprime le lot entre "{('|di " ou di { ou di {
 ---- 
  **MODIFIER**
 
@@ -106,5 +113,6 @@ Occurence de mot|*
 Refaire l'action précédente|.  
 Incremente le nombre sous le curseur|CTRL + a  
 Décremente le nombre sous le curseur|CTRL + x  
+Entourer un mot de quotes|ciw"" ESC P 
 
 
