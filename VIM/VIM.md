@@ -1,16 +1,17 @@
-### Vim
+#Vim
+
 ---- 
 
-**Insertion**
+**INSERTION**
 
 Désignations | keymaps | 
 |--------------|-----------|
- Inserer du texte avant le curseur | i | 
- inserer du texte apres curseur | a | 
- Inserer fin de ligne|A
- Inserer debut de ligne|I
- Inserer en dessous | o | 
- Inserer au dessus|O
+ Inséré du texte avant le curseur | i | 
+ inséré du texte après curseur | a | 
+ Inséré fin de ligne|A
+ Inséré début de ligne|I
+ Inséré en dessous | o | 
+ Inséré au-dessus|O
 
 ---- 
 **DÉPLACEMENT**
@@ -20,17 +21,18 @@ Désignations | keymaps |
 Désignations | keymaps | 
 |---------|----------|
  Fin de ligne | $  | 
- Debut de ligne | 0| 
- Debut du fichier | gg | 
- fin du fichier|G
- Deplacement d'un mot vers l'avant|w
- Deplacement d'un mot vers l'arriere|b
- Place le curseur a la fin du mot|e
- Aller a la ligne N°|CTRL G
- Déplacement vers le Haut|k
- Déplacement vers le Bas|j
- Déplacement vers le Gauche|h
- Déplacement vers le Droite|L
+ Début de ligne | 0| 
+ Début du fichier | gg | 
+ fin du fichier|G| 
+  Déplacement d'un mot vers l'avant|w| 
+  Déplacement d'un mot vers l'arrière|b|
+ Place le curseur à la fin du mot|e|
+ Aller à la ligne N°|CTRL G|
+ Déplacement vers le Haut|k|
+ Déplacement vers le Bas|j|
+ Déplacement vers le Gauche|h|
+ Déplacement vers le Droite|L|
+ 
 ---- 
 **EFFACER**
 
@@ -38,81 +40,91 @@ On peut combiner les touches et passer en mode insertion
 
 exemple:
 
-    cb supprime le mot precedent et passe en mode insertion
+    cb supprime le mot précèdent et passe en mode insertion
     dw efface le mot et passe en mode insertion
+
 
 Désignations | keymaps | 
 |---------|----------|
-Efface le caratére sur le curseur | x | 
-Supprime le mot précedent |db| 
-efface un mot a partir du curseur jusqu'a la fin du mot | dw| 
-efface un mot a partir du curseur | daw| 
+Efface le caractère sur le curseur | x | 
+Supprime le mot précédent |db| 
+efface un mot à partir du curseur jusqu'à la fin du mot | dw| 
+efface un mot à partir du curseur | daw| 
 Efface la ligne courante | dd | 
-efface j'usqua la fin de ligne|D ou d$
-efface jusqua debut de ligne|d0(zéro) 
-Supprime jusqu'a la prochaine occurence de p|df(p)
-Supprime le lot entre "{('|di " ou di { ou di {
+efface jusqu'à la fin de ligne|D ou d$
+efface jusqu'à début de ligne|d0(zéro) 
+Supprime jusqu'à la prochaine occurrence de p|df(p)
+Supprime le mot  " { ( ' |di " ou di { ou di {
+
 ---- 
+
  **MODIFIER**
 
 
 
 Désignations | keymaps | 
 |---------|----------|
- Remplace un caractere| r | 
+ Remplace un caractère| r | 
  Modifier un mot | cw| 
  Modifie la ligne courante | cc |
-subsitution de caractere efface le caractere et insere un nouveau | s |
+substitution de caractère efface le caractère et insère un nouveau | s |
  modifie la ligne courante | cc |
 
 
 
 
 ---- 
- **COPIER COLLER**
+
+ **COPIER-COLLER**
 
 Désignations | keymaps | 
 |---------|----------|
 Copie un mot| yw | 
 Copie la ligne courant | yy| 
 Colle la ligne courant | p | 
+
 --------------------------
+
 
  **RECHERCHER REMPLACER**
 
 Désignations | keymaps | 
 |---------|----------|
-Remplace la premiere occurence de la ligne ou se trouve le curseur|:s/ancien/nouveau | 
-Remplace toutes les occurence de la ligne ou se trouve le curseur|:s/ancien/nouveau/g | 
-Remplace toutes les occurence dans les lignes n° # a # du fichiers|:#,#s/ancien/nouveau/g | 
-Remplace toutes les occurence dans tous le fichiers|:%s/ancien/nouveau/g | 
+Remplace la première occurrence de la ligne ou se trouve le curseur|:s/ancien/nouveau | 
+Remplace toutes les occurrences de la ligne ou se trouve le curseur|:s/ancien/nouveau/g | 
+Remplace toutes les occurrences dans les lignes n° # a # du fichiers|:#,#s/ancien/nouveau/g | 
+Remplace toutes les occurrences dans tout le fichier|:%s/ancien/nouveau/g | 
 Rechercher un mot| /motARechercher |
+
 ---- 
+
  **INDENTATIONS**
 
 Désignations | keymaps | 
 |---------|----------|
-Reindente tous le document|gg=G
-Indente la ligne|== (double egale) 
+Reindente tout le document|gg=G
+indente la ligne|== (double égale) 
 Indente a gauche| < 
 Indente a Droite| > 
+
 -------------------
+
  **DIVERS**
 
 Désignations | keymaps | 
 |---------|----------|
-vas au acooclades et parentheses fermante et ouvrante |%
-Selectionne entre les parenteses|vib 
-Selectionne entre les accolades|vIb 
+Va aux accolades et parenthèses fermantes et ouvrantes |%
+Sélectionne entre les parenthèses|vib 
+Sélectionne entre les accolades|vIb 
 Supprime un bloc de code entre {}|daB 
-Passe le mot en MAJUSCULES|gUw 
-Passe le mot en minuscules|guw 
-Annuler l'action|u  
-defaire|CTRL Z  
-Occurence de mot|*  
+passe le mot en MAJUSCULES|gUw 
+passe le mot en minuscules|guw 
+annuler l'action|u  
+défaire|CTRL Z  
+Occurrence de mot|*  
 Refaire l'action précédente|.  
-Incremente le nombre sous le curseur|CTRL + a  
-Décremente le nombre sous le curseur|CTRL + x  
+Inclémente le nombre sous le curseur|CTRL + a  
+décrémente le nombre sous le curseur|CTRL + x  
 Entourer un mot de quotes|ciw"" ESC P 
 
 
