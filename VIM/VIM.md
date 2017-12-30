@@ -39,7 +39,8 @@ Désignations | keymaps |
 |---------|----------|
 Efface le caratére sur le curseur | x | 
 Supprime le mot précedent |db| 
-efface un mot | dw| 
+efface un mot a partir du curseur jusqu'a la fin du mot | dw| 
+efface un mot a partir du curseur | daw| 
 Efface la ligne courante | dd | 
 efface j'usqua la fin de ligne|D ou d$
 efface jusqua debut de ligne|d0(zéro) 
@@ -61,12 +62,13 @@ subsitution de caractere efface le caractere et insere un nouveau | s |
 
 
 ---- 
- **COPIER**
+ **COPIER COLLER**
 
 Désignations | keymaps | 
 |---------|----------|
 Copie un mot| yw | 
 Copie la ligne courant | yy| 
+Colle la ligne courant | p | 
 --------------------------
 
  **RECHERCHER REMPLACER**
@@ -95,10 +97,12 @@ Désignations | keymaps |
 vas au acooclades et parentheses fermante et ouvrante |%
 Selectionne entre les parenteses|vib 
 Selectionne entre les accolades|vIb 
+Supprime un bloc de code entre {}|daB 
 Passe le mot en MAJUSCULES|gUw 
 Passe le mot en minuscules|guw 
 Annuler l'action|u  
 defaire|CTRL Z  
+Occurence de mot|*  
 Refaire l'action précédente|.  
 Incremente le nombre sous le curseur|CTRL + a  
 Décremente le nombre sous le curseur|CTRL + x  
