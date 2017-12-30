@@ -4,7 +4,7 @@
 
 **INSERTION**
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |--------------|-----------|
  Inséré du texte avant le curseur | i | 
  inséré du texte après curseur | a | 
@@ -18,7 +18,7 @@ Désignations | keymaps |
 
 
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
  Fin de ligne | $  | 
  Début de ligne | 0| 
@@ -36,15 +36,16 @@ Désignations | keymaps |
 ---- 
 **EFFACER**
 
+
 On peut combiner les touches et passer en mode insertion
 
 exemple:
 
-    cb supprime le mot précèdent et passe en mode insertion
-    dw efface le mot et passe en mode insertion
+    db supprime le mot précèdent et reste en mode commande
+    cb supprime le mot précèdent et passe en mode insertion.
 
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
 Efface le caractère sur le curseur | x | 
 Supprime le mot précédent |db| 
@@ -62,7 +63,7 @@ Supprime le mot  " { ( ' |di " ou di { ou di {
 
 
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
  Remplace un caractère| r | 
  Modifier un mot | cw| 
@@ -77,7 +78,7 @@ substitution de caractère efface le caractère et insère un nouveau | s |
 
  **COPIER-COLLER**
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
 Copie un mot| yw | 
 Copie la ligne courant | yy| 
@@ -88,7 +89,7 @@ Colle la ligne courant | p |
 
  **RECHERCHER REMPLACER**
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
 Remplace la première occurrence de la ligne ou se trouve le curseur|:s/ancien/nouveau | 
 Remplace toutes les occurrences de la ligne ou se trouve le curseur|:s/ancien/nouveau/g | 
@@ -100,7 +101,7 @@ Rechercher un mot| /motARechercher |
 
  **INDENTATIONS**
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
 Reindente tout le document|gg=G
 indente la ligne|== (double égale) 
@@ -109,9 +110,9 @@ Indente a Droite| >
 
 -------------------
 
- **DIVERS**
+ **POUR LES PROGRAMMEURS**
 
-Désignations | keymaps | 
+Désignations | Raccourcies clavier | 
 |---------|----------|
 Va aux accolades et parenthèses fermantes et ouvrantes |%
 Sélectionne entre les parenthèses|vib 
