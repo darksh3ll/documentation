@@ -149,6 +149,6 @@ remplace le mot entre guillemet | ci "
 
 ###### Deplacer une ligne:
 
-![](deplaceLigne%202.gif)
+![](deplaceLigne.gif)
 
 
