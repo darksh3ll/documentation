@@ -1,4 +1,4 @@
-![](te%CC%81le%CC%81chargement%202.png)
+![](te%CC%81le%CC%81chargement.png)
 
 
 
